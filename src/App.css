@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  padding: 0 0 100px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+/*
+ * PAGE HEADER
+ */
+.pageHeader {
+  margin-top: 80px;
+  text-align: center;
+}
+.pageHeader span {
+  font-size: 45px;
+  color: #0880f7;
+}
+.pageSubheader {
+  text-align: center;
+  margin-bottom: 30px;
+}
+/*
+ * HEADER
+ */
+.menuList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #232f3e;
+}
+.menuListElement {
+  display: inline;
+}
+.menuListElement a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  padding: 20px 24px;
+  text-decoration: none;
+}
+.menuListElement a:hover,
+.dropdwn:hover .dropbtn,
+.dropdown-content a:hover {
+  background-color: #0880f7;
+  color: white;
+}
+.menuListElement.dropdwn {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdwn:hover .dropdown-content {
+  display: block;
+  left: auto;
+  right: 0;
+}
+/*
+ * VIDEO
+ */
+.demoVid {
+  margin-bottom: 50px;
+}
+/*
+ * SIGN IN
+ */
+.signInBox {
+  margin-top: 80px;
+}
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 15px;
+  margin: 0 auto;
+  background-color: WhiteSmoke;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.lbl {
+  font-weight: bold;
+}
+.lbl a {
+  font-weight: normal;
+  cursor: pointer;
+  float: right;
+}
+.form-signin-heading {
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+.form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.mainBtn {
+  background-color: #0880f7;
+  color: white;
+}
+.newCustBtn {
+  background-color: grey;
+  color: white;
+}
+.TnC {
+  padding-top: 20px;
+  text-align: center;
+}
+/*
+ * REGISTER
+ */
+#noMatch {
+  color: red;
+  float: right;
+  font-weight: normal;
+}
+.capcha {
+  text-align: center;
+  padding: 10px;
+}
+#capchaInput {
+  width: 100px;
+}
+/*
+ * TEAM
+ */
+.teamCard {
+  width: 100%;
+  display: inline-block;
+  margin: 10px 40px;
+  margin-left: -15px;
+}
+.teamImg img:hover {
+  height: 120%;
+}
+.teamImg {
+  display: inline-block;
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0px 50px;
+  cursor: pointer;
+}
+.teamImg img {
+  width: auto;
+  height: 100%;
+}
+.teamInfo {
+  font-size: 20px;
+  width: 60%;
+  text-align: left;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+.teamName {
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+/*
+ * CONTACT
+ */
+#contact {
+  padding-top: 60px;
+  width: 100%;
+  width: 100vw;
+  height: 550px;
+}
+.content-header {
+  color: #0880f7;
+  font-size: 45px;
+}
+.section-content {
+  text-align: center;
+}
+.contact-section {
+  padding-top: 40px;
+}
+.contact-section .col-md-6 {
+  width: 50%;
+}
+.form-line {
+  border-right: 1px solid #b29999;
+}
+/*
+ * FOOTER
+ */
+footer {
+  background-color: #232f3e;
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  padding-top: 40px;
+}
